@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.top-section {
+  background-image: url(./images/diwali-bg.png);
+  height: 30vh;
+  background-size: cover;
+}
+.cc{
+  margin-top:30px;
+  display:flex;
+}
+.top-section-text {
+  color: white;
+  font-family: Caveat;
+  padding-left: 30px;
+  margin-top:  0px !important;
+  /* width: 300px; */
+  font-size: 45px;
+}
+.company-name {
+  background-color: #ff6b6b;
+  color: #1c1c1c;
+  padding: 12px 24px;
+  border: 3px dashed #762d93;
+  border-radius: 50px;
+  width: fit-content;
+  margin: 20px auto;
+  font-family: "Pacifico", cursive;
+  font-size: 28px;
+  text-align: center;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.bottom-section {
+  background-image: url();
+  background-color: rgb(96, 86, 236);
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  height: auto;
+}
+.message-para {
+    padding-top: 20px;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+}
+.row-items-display {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bottom-section-card-item {
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  width: calc(25% - 30px);
+  margin: 15px;
+  padding: 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.card-item-image {
+  height: 80px;
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-item-name,
+.card-item-price {
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+.card-item-price {
+  font-size: 16px;
+}
